@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Halloween game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+<main>
+    <div class="pole">
+        <h1>HALLOWEEN GAME</h1>
+        <h2>Trick Or Treat?</h2>
+
+        <nav>
+            <div class="book-icon magicBook">
+
+            </div>
+            <div class="magicBookOpened">
+                <section class="level" data-level="1"><h3>Level 1</h3>
+                    <div class="spell-icon">
+                        <div class="lightning-icon"></div>
+                        <p class="spell-name spell lightning">Lightning</p>
+                    </div>
+                </section>
+                <section class="level" data-level="2">
+                    <h3>Level 2</h3>
+                    <div class="spell-icon arrow-icon">
+                        <p class="spell-name spell arrow">Magic arrow</p>
+                    </div>
+                </section>
+                <section class="level" data-level="3">
+                    <h3>Level 3</h3>
+                    <div class="spell-icon fireball-icon">
+                        <p class="spell-name spell fireball">Fireball</p>
+                    </div>
+                </section>
+                <div class="closeBook"></div>
+            </div>
+
+        </nav>
+        <section class="antogonist">
+            <article class="player">
+                <h3>You</h3>
+                <div class="progress-bar  playerBar">
+                    <span class="player_hp health">100</span>
+                </div>
+                <div class="player-icon icons"></div>
+            </article>
+            <article class="monster">
+                <h3 class="monsterName">Monster</h3>
+                <div class="progress-bar  monsterBar">
+                    <span class="monster_hp health">100</span>
+                </div>
+                <div class="monster-icon icons"></div>
+            </article>
+        </section>
+        <div class="task-modal ">
+            <section class="task">
+                <h3></h3>
+                <div class="example">
+
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="parallax _1"></div>
+    <div class="parallax _2"></div>
+
+</main>
+<audio src="assets/audio/halloweenTheme.mp3" autoplay loop class="audio"></audio>
+<audio src="assets/audio/spell1.mp3" class="audio"></audio>
+<audio src="assets/audio/spell2.mp3" class="audio"></audio>
+<audio src="assets/audio/spell3.mp3" class="audio"></audio>
+</body>
+</html>
